@@ -9,8 +9,10 @@ enable_object_processing = True
 
 [authorization]
 cors_domains = 
-	*://my.mainsail.xyz
-	*://*.local
+	https://my.mainsail.xyz
+	http://my.mainsail.xyz
+	http://*.local
+	http://*.lan
 trusted_clients = 
 	10.0.0.0/8
 	127.0.0.0/8
