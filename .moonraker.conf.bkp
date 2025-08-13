@@ -40,17 +40,6 @@ channel = stable
 repo = mainsail-crew/mainsail
 path = ~/mainsail
 
-[update_manager timelapse]
-type = git_repo
-primary_branch = main
-path = ~/moonraker-timelapse
-origin = https://github.com/mainsail-crew/moonraker-timelapse.git
-managed_services = klipper moonraker
-
-[timelapse]
-output_path = ~/timelapse/
-ffmpeg_binary_path = /usr/bin/ffmpeg
-
 [update_manager crowsnest]
 type = git_repo
 path = ~/crowsnest
